@@ -1,0 +1,38 @@
+body {
+  background-color: #9aa0a6;
+  font-family: sans-serif;
+  border: 3px;
+  border-style: ridge;
+  border-color: black;
+}
+
+#nav {
+  float: left;
+  width: 150px;
+  height: 150px;
+  border: 1px;
+  border-style: solid;
+  margin: 10px;
+  background-color: #2486f3;
+}
+
+#nav li {
+  list-style: none;
+}
+
+#header {
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+#footer {
+  position: relative;
+  padding: 20px;
+  clear: both;
+  border: 1px;
+  border-style: solid none none;
+}
+
+.date {
+  font-style: italic;
+}
