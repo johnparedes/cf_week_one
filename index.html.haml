@@ -4,17 +4,23 @@
     %title John Paredes
     %link(rel="stylesheet" href="styles.css")
   %body
-    #header
-      %h1 John Paredes
-      %h2 Learning to Code, One Line at a Time
-    #nav
+    %header
+      #title John Paredes
+      #subtitle Learning to Code, One Line at a Time
+    %nav
       %ul
-        %li Blog
-        %li About
-        %li Contact
-    #main
-      %h3.blog_title Mary had a little lamb...
-      %p.date August 11, 2013
-      %p ...whose fleece was white as snow.
-    #footer
-      &copy John Paredes 2013
+        %li
+          %a(href="#" title="Blog") Blog
+        %li
+          %a(href="#" title="Archives") Archives
+        %li
+          %a(href="#" title="About") About
+        %li
+          %a(href="#" title="Contact") Contact
+    %main
+      %article
+        .title Mary had a little lamb...
+        %time August 11, 2013
+        %p ...whose fleece was white as snow.
+  %footer
+    &copy John Paredes 2013
